@@ -1,4 +1,4 @@
-package com.chargept.csms;
+package main.java.com.chargept.csms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

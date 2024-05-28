@@ -1,7 +1,7 @@
 package main.java.com.chargept.csms.service.kafka;
 
-import com.chargept.csms.model.request.AuthenticationRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import main.java.com.chargept.csms.model.request.AuthenticationRequest;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.beans.factory.annotation.Autowired;

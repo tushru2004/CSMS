@@ -1,4 +1,4 @@
-package com.chargept.csms.model.request;
+package main.java.com.chargept.csms.model.request;
 
 public class DriverIdentifier {
     private String id;

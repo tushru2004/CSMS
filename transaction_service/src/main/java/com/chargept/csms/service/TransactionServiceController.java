@@ -2,7 +2,7 @@ package main.java.com.chargept.csms.service;
 
 import main.java.com.chargept.csms.service.kafka.KafkaProducerTranServ;
 import main.java.com.chargept.csms.service.kafka.KafkaConsumerTransServ;
-import com.chargept.csms.model.request.AuthenticationRequest;
+import main.java.com.chargept.csms.model.request.AuthenticationRequest;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
