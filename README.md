@@ -13,10 +13,7 @@
         - [Prerequisites](#prerequisites)
         - [Installation](#installation)
     - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Contact](#contact)
-    - [Acknowledgments](#acknowledgments)
+
 
 ## About
 
@@ -34,13 +31,14 @@ Docker version 25.0.3
 Docker Compose version v2.24.5-desktop.1
 ```
 
-### Instructions
+### Usage
 ```dockerfile
 git clone git@github.com:tushru2004/CSMS.git
 cd CSMS
 docker-compose up --build
 # Give 30 sec for services to start up
 ```
+
 ### Accepted case -- User valid and card works
 
 ```
