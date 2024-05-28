@@ -45,7 +45,7 @@ Project is developed using IntelliJ Idea Community Edition.
 Could be opened at the root (CSMS) level using IntelliJ. But not necessary<br>
 <img alt="IntelliJ" height="400" src="IntelliJ.png" width="200"/>
 
-### installation
+### Installation/ Code execution
 ```dockerfile
 git clone https://github.com/tushru2004/CSMS.git
 cd CSMS
