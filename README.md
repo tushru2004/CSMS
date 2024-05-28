@@ -42,7 +42,7 @@ Docker Compose version v2.24.5-desktop.1
 
 ### installation
 ```dockerfile
-git clone git@github.com:tushru2004/CSMS.git
+git clone https://github.com/tushru2004/CSMS.git
 cd CSMS
 docker-compose up --build
 # Give 2 min for services to start up. Might be longer depending on internet speed and processor speed
