@@ -37,6 +37,7 @@ As the request is being sent by charging station, its assumed that the guid will
 
 ```sh
 Postman - For ease of testing
+Curl - For testing , if you prefer that to postman
 MAC - Great to have, but not necessary
 Docker version 25.0.3
 Docker Compose version v2.24.5-desktop.1
