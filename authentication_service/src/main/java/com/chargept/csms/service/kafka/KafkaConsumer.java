@@ -1,6 +1,5 @@
 package main.java.com.chargept.csms.service.kafka;
 
-import main.java.com.chargept.csms.service.kafka.KafkaProducer;
 import com.chargept.csms.util.Whitelist;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.java.com.chargept.csms.model.response.AuthenticationRequest;
