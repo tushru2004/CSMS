@@ -25,9 +25,8 @@ Application consists of two separate services, transaction_service and authentic
 Docker compose is used to instantiate all dependent services like kafka.  
 
 ## Limitations/Assumptions
-Invalid Case means  -- Identifier is invalid. Does not meet the identifier length requirements
-Unknown Case means -- Identifier is valid but not present/registered in the system
-Unit tests not written for all classes. Only written for classes that have important logic
+Invalid Case means  -- Identifier is invalid. Does not meet the identifier length requirements<br>
+Unknown Case means -- Identifier is valid but not present/registered in the system<br>
 
 
 ## Getting Started
