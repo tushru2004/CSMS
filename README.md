@@ -40,8 +40,8 @@ Docker version 25.0.3
 Docker Compose version v2.24.5-desktop.1
 ```
 Project is developed using IntelliJ Idea Community Edition. 
-Could be opened at the root (CSMS) level using IntelliJ. But not necessary
-![IntelliJ](IntelliJ.png)
+Could be opened at the root (CSMS) level using IntelliJ. But not necessary<br>
+<img alt="IntelliJ" height="400" src="IntelliJ.png" width="200"/>
 
 ### installation
 ```dockerfile
