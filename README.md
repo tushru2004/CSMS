@@ -52,7 +52,8 @@ Could be opened at the root (CSMS) level using IntelliJ. But not necessary<br>
 git clone https://github.com/tushru2004/CSMS.git
 cd CSMS
 docker-compose up --build
-# Give 2 min for services to start up. Might be longer depending on internet speed and processor speed
+# Give 2 min for services to start up.
+# Might be longer depending on internet speed and processor speed
 ```
 The above commands will run the application on localhost:4040. The following sections will describe how to test the application for necessary functionality
 ### Usage
