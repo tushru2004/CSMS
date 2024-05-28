@@ -12,6 +12,7 @@ RUN mvn dependency:go-offline
 
 # Copy the source code into the container
 COPY src ./src
+COPY wait-for-it.sh ./wait-for-it.sh
 
 # Package the application into a JAR file
 RUN mvn clean package -DskipTests
@@ -24,9 +25,11 @@ WORKDIR /app
 
 # Copy the JAR file from the builder stage
 COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/wait-for-it.sh wait-for-it.sh
+RUN chmod +x wait-for-it.sh
 
 # Expose the application port
 EXPOSE 8080
 
 # Run the application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["./wait-for-it.sh", "kafka:9092", "--", "java", "-jar", "app.jar"]
