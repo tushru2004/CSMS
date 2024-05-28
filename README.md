@@ -25,8 +25,8 @@ for charging a car
 ### Prerequisites
 
 ```sh
-Postman -- ideally for ease of testing
-MAC -- Great to have, but not necessary
+Postman - For ease of testing
+MAC - Great to have, but not necessary
 Docker version 25.0.3
 Docker Compose version v2.24.5-desktop.1
 ```
