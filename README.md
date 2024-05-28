@@ -20,7 +20,7 @@
 ChargePoint assignment. Consists of two services that are used to authenticate a user 
 for charging a car.
 
-## Architecture
+## Code Setup
 Application consists of two separate services, transaction_service and authentication_service are in their sub folders respectively.
 Docker compose is used to instantiate all dependent services like kafka.  
 Wait for it is used to wait for kafka startup before initializing main services 
