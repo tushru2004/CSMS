@@ -42,6 +42,7 @@ MAC - Great to have, but not necessary
 Docker version 25.0.3
 Docker Compose version v2.24.5-desktop.1
 ```
+Kafka UI could be reached at localhost:2020 for debugging if necessary<br>
 Project is developed using IntelliJ Idea Community Edition. 
 Could be opened at the root (CSMS) level using IntelliJ. But not necessary<br>
 <img alt="IntelliJ" height="400" src="IntelliJ.png" width="200"/>
