@@ -27,7 +27,7 @@ Docker compose is used to instantiate all dependent services like kafka.
 ## Limitations/Assumptions
 Invalid Case means  -- Identifier is invalid. Does not meet the identifier length requirements<br>
 Unknown Case means -- Identifier is valid but not present/registered in the system<br>
-
+Initial Start up for docker-compose up --build command might take about 2 min.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Docker Compose version v2.24.5-desktop.1
 git clone git@github.com:tushru2004/CSMS.git
 cd CSMS
 docker-compose up --build
-# Give 30 sec for services to start up
+# Give 2 min for services to start up. Might be longer depending on internet speed and processor speed
 ```
 ### Usage
 ### Accepted case -- User valid and card works
