@@ -8,7 +8,6 @@
 
 - [CSMS](#CSMS)
     - [About](#about)
-    - [Features](#features)
     - [Getting Started](#getting-started)
         - [Prerequisites](#prerequisites)
         - [Installation](#installation)
