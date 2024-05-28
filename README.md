@@ -23,7 +23,7 @@ for charging a car.
 ## Architecture
 Application consists of two separate services, transaction_service and authentication_service are in their sub folders respectively.
 Docker compose is used to instantiate all dependent services like kafka.  
-Wait for it is used to wait kafka startup before initializing other services 
+Wait for it is used to wait for kafka startup before initializing main services 
 ## Limitations/Assumptions
 Invalid Case means  -- Identifier is invalid. Does not meet the identifier length requirements<br>
 Unknown Case means -- Identifier is valid but not present/registered in the system<br>
