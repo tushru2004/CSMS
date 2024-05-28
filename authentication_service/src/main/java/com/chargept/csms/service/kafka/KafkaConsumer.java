@@ -1,6 +1,6 @@
 package main.java.com.chargept.csms.service.kafka;
 
-import com.chargept.csms.util.Whitelist;
+import main.java.com.chargept.csms.util.Whitelist;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import main.java.com.chargept.csms.model.response.AuthenticationRequest;
 import main.java.com.chargept.csms.model.response.AuthenticationResponse;
@@ -19,8 +19,8 @@ public class KafkaConsumer {
 
     @KafkaListener(topics = "csms_auth_request")
     public void listenToPartition(ConsumerRecord<String, String> record) {
-        System.out.println("Received message: " + record.value() +
-                " with key: " + record.key());
+        //System.out.println("Received message: " + record.value() +
+        //        " with key: " + record.key());
 
         AuthenticationRequest authMessage = null;
         AuthenticationResponse authRes = new AuthenticationResponse();
@@ -32,6 +32,7 @@ public class KafkaConsumer {
             e.printStackTrace();
         }
         if (authMessage == null) throw new AssertionError();
+
         String driverIdentifier = authMessage.getDriverIdentifier().getId();
         //Driver identifier is between 20 and 80
         if(driverIdentifier.length() < 20 || driverIdentifier.length() > 80)

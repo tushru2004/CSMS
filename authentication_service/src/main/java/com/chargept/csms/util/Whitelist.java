@@ -1,4 +1,4 @@
-package com.chargept.csms.util;
+package main.java.com.chargept.csms.util;
 
 import java.util.HashMap;
 import java.util.Map;
