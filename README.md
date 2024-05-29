@@ -27,7 +27,7 @@ Wait for it is used to wait for kafka startup before initializing main services
 ## Limitations/Assumptions
 Invalid Case means  -- Identifier is invalid. Does not meet the identifier length requirements<br>
 Unknown Case means -- Identifier is valid but not present/registered in the system<br>
-Initial Start up for docker-compose up --build command might take about 2 min.<br>
+Initial Start up for docker-compose up --build command might take more than 2 min since all the images have to be freshly downloaded<br>
 As the request is being sent by charging station, its assumed that the guid will be valid. But code could be added to validate this if needed. 
 
 
