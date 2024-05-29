@@ -21,6 +21,10 @@ public class Whitelist {
     }
 
     public boolean checkCardChargeStatus(String id) {
-        return this.whitelist.get(id);
+        if (this.whitelist.get(id) != null) {
+            return this.whitelist.get(id);
+        } else {
+            return false;
+        }
     }
 }

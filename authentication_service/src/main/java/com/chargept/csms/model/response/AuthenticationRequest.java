@@ -1,26 +1,13 @@
 package main.java.com.chargept.csms.model.response;
 
+import lombok.Getter;
+
 import java.util.UUID;
 
+@Getter
 public class AuthenticationRequest {
+    @lombok.Setter
     private UUID stationUuid;
-
-    public DriverIdentifier getDriverIdentifier() {
-        return driverIdentifier;
-    }
-
-    public void setDriverIdentifier(DriverIdentifier driverIdentifier) {
-        this.driverIdentifier = driverIdentifier;
-    }
-
-    public UUID getStationUuid() {
-        return stationUuid;
-    }
-
-    public void setStationUuid(UUID stationUuid) {
-        this.stationUuid = stationUuid;
-    }
-
     private DriverIdentifier driverIdentifier;
 }
 

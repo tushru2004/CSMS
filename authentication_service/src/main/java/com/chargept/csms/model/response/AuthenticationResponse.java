@@ -1,13 +1,10 @@
 package main.java.com.chargept.csms.model.response;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class AuthenticationResponse {
-    public String getAuthorizationStatus() {
-        return authorizationStatus;
-    }
-
-    public void setAuthorizationStatus(String authorizationStatus) {
-        this.authorizationStatus = authorizationStatus;
-    }
-
     private String authorizationStatus;
 }
